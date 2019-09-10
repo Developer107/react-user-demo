@@ -19,7 +19,6 @@ class Profile extends React.PureComponent {
 
     render() {
         const {selectedUserData} = this.state;
-        console.log('Function: render, Line 22 ' , selectedUserData);
         return (
             <div>
                 <Header setAllUserData={this.setAllUserData}/>
