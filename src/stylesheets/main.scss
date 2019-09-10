@@ -1,0 +1,27 @@
+/* contains all the exported scss files */
+
+// abstracts
+@import
+'abstracts/variables',
+'abstracts/mixins',
+'abstracts/placeholders';
+
+// layouts
+@import
+'layout/header';
+
+// components
+@import
+'components/user_card',
+'components/gallery';
+
+// pages
+@import
+'pages/login',
+'pages/home',
+'pages/profile',
+'pages/users';
+
+// themes
+@import
+'themes/theme';

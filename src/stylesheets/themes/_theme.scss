@@ -1,0 +1,19 @@
+body {
+  font-family: cursive;
+  background: $color-light-grey;
+}
+
+.btn {
+  position: relative;
+  width: 100px;
+  margin: 10px;
+  background: $color-light-blue;
+  padding: 10px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+a, h2, input, span, div{
+  color: $color-grey;
+}

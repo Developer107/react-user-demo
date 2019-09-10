@@ -1,0 +1,14 @@
+.user-card {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid $color-black;
+  padding: 10px;
+  cursor: pointer;
+  .user-card-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    @extend %background-image;
+  }
+}

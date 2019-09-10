@@ -1,0 +1,15 @@
+.home-container {
+
+  .upload-button-container {
+    span {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+    }
+
+    input[type='file'] {
+      opacity: 0;
+      width: 100%;
+    }
+  }
+}

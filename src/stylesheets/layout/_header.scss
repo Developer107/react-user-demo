@@ -1,0 +1,24 @@
+.header-container {
+  nav {
+    background: #a1cbe4;
+    height: auto;
+    display: block;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 83px;
+    font-size: 1.25em;
+    font-family: cursive;
+
+    ul {
+      float: right;
+      li {
+        display: inline-block;
+        margin: 10px 20px;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
