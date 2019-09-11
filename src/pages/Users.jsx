@@ -19,12 +19,12 @@ class Users extends React.PureComponent {
         const {allUserData} = this.state;
         return (
             <div>
-                <Header setAllUserData={this.setAllUserData}  />
-                <br />
+                <Header setAllUserData={this.setAllUserData}/>
+                <br/>
                 <h2>All users</h2>
                 {
                     !!allUserData && allUserData.map(user => {
-                        return (<UserCard userData={user}/>)
+                        return (<UserCard key={'user' + user.id} userData={user}/>)
                     })
                 }
             </div>

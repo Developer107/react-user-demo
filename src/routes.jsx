@@ -11,10 +11,10 @@ class Routes extends React.PureComponent {
         return (
             <div>
                 <Router>
+                    <Route path="/" exact component={Login}/>
                     <Route path="/home" component={Home}/>
                     <Route path="/profile/:id" component={Profile}/>
                     <Route path="/users" component={Users}/>
-                    <Route path="/" exact component={Login}/>
                 </Router>
             </div>
         );
