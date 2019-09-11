@@ -32,7 +32,6 @@ class Header extends React.PureComponent {
         reactLocalStorage.set('userId', '');
     }
     render() {
-        const {currentUserData} = this.state;
         return (
             <div className='header-container'>
                 <nav>

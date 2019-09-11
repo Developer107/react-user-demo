@@ -176,7 +176,7 @@ class Login extends React.PureComponent {
                         this.setState((prevState) => ({
                             isRegistered: !prevState.isRegistered
                         }))
-                    }}><a href={null}>{!!isRegistered ? "New User?" : "Go to login"}</a></small>
+                    }}><span >{!!isRegistered ? "New User?" : "Go to login"}</span></small>
                     {!!errorMessage && <div className='error-message'>{errorMessage}</div>}
                 </div>
                 <span>NOTE:</span>

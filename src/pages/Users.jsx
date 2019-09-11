@@ -1,5 +1,4 @@
 import React from 'react';
-import {reactLocalStorage} from "reactjs-localstorage";
 import UserCard from "../components/UserCard";
 import Header from "../components/Header";
 
