@@ -16,8 +16,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch:sass": "npm run build:sass && npm run build:sass -- -w",
-    "build:sass": "node-sass -r --output-style compressed src/stylesheets/main.scss -o src/stylesheets/css"
-
+    "build:sass": "node-sass -r --output-style compressed src/stylesheets/main.scss -o src/stylesheets/css",
+    "eslint": "eslint src --ext .jsx --ext .js",
+    "eslint-fix": "eslint --fix src --ext .jsx --ext .js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }
