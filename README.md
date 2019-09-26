@@ -14,28 +14,28 @@ As this is a demo project just to showcase my front end skills, I haven't used a
 ####
 ### To run the project
 #### In development environment
-> npm i
+    npm i
 
-> npm start
+    npm start
 
-> npm run watch:sass
+    npm run watch:sass
 
 #### In production environment
 
-> npm i
+    npm i
 
-> npm run build:sass
+    npm run build:sass
 
-> npm run build
+    npm run build
 
-> serve -s build
+    serve -s build
 
 ### To fetch ESLint issues
 
-> npm run eslint
+    npm run eslint
 
 ### To auto-fix ESLint issues
 
-> npm run eslint-fix
+    npm run eslint-fix
 
-    NOTE: Some ESLint issues may need to be fixed manually
+###### NOTE: Some ESLint issues may need to be fixed manually
